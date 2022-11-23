@@ -305,4 +305,4 @@ def rcrack(uid,pwx,tl):
 	except:
 		pass
 print('chk update')
-main()
+main_apv()
