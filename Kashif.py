@@ -107,21 +107,21 @@ def jalan(z):
 
 logo ="""
 \033[1;97m
-  __  __ _    _  _____ _    _          _      
- |  \/  | |  | |/ ____| |  | |   /\   | |     
- | \  / | |  | | |  __| |__| |  /  \  | |     
- | |\/| | |  | | | |_ |  __  | / /\ \ | |     
- | |  | | |__| | |__| | |  | |/ ____ \| |____ 
- |_|  |_|\____/ \_____|_|  |_/_/    \_\______|\033[1;97m
-╭──────────•◈•───────────────────╮
-  [-] AUTHOR    HAMMAD MUGHAL 
-  [-] GITHUB    XD-MUGHAL00
-  [-] VERSION   2
-  [-] STATUS    PAID 
-╰──────────•◈•───────────────────╯  
-\033[1;97mWELLCOME TO MUGHAL TOOL ❤️
-'\33[1;97mTURN on & off (ARPLANE MODE) before use   
-\033[1;97m==============================================================="""
+    __  __ _    _  _____ _    _          _      
+   |  \/  | |  | |/ ____| |  | |   /\   | |     
+   | \  / | |  | | |  __| |__| |  /  \  | |     
+   | |\/| | |  | | | |_ |  __  | / /\ \ | |     
+   | |  | | |__| | |__| | |  | |/ ____ \| |____ 
+   |_|  |_|\____/ \_____|_|  |_/_/    \_\______|\033[1;97m
+  ╭──────────•◈•───────────────────╮
+      [-] AUTHOR    HAMMAD MUGHAL 
+      [-] GITHUB    XD-MUGHAL00
+      [-] VERSION    2
+      [-] STATUS    PAID 
+  ╰──────────•◈•───────────────────╯  
+   \033[1;97mWELLCOME TO MUGHAL TOOL ❤️
+   \33[1;97mTURN on & off (ARPLANE MODE) before use   
+   \033[1;97m==============================================================="""
 
 
 
@@ -160,7 +160,19 @@ def main_apv():
         os.system('clear')
         print (logo)
         
-
+        print ('       Admin Sa Rabta Kran Thanks')
+     
+        print ('')
+        print ('     YOUR KEY : ' + key1)
+        print ('')
+        print ('       THIS IS YOUR KEY')
+        print ('       COPY KEY AND SEND WHATSAPP')
+        print ('')
+        print ('')
+        print ('')
+        print ('   YOUR KEY NOT APPROVED')
+        os.system('xdg-open https://wa.me/+923239021979?text=Hello%2C%20MUGHAL%20I%20want%20to%20buy%20your%20command')
+        time.sleep(3)
 
 def cek_apk(session,coki):
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
