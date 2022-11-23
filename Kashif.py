@@ -155,7 +155,7 @@ def main_apv():
 
     r1 = requests.get('https://raw.githubusercontent.com/MUGHALZADA109/key/main/Approval.txt').text
     if key1 in r1:
-        main_apv()
+        Main()
     else:
         os.system('clear')
         print (logo)
@@ -305,4 +305,4 @@ def rcrack(uid,pwx,tl):
 	except:
 		pass
 print('chk update')
-main_apv()
+main()
