@@ -122,9 +122,10 @@ logo ="""
    \033[1;97mWELLCOME TO MUGHAL TOOL ❤️
    \33[1;97mTURN on & off (ARPLANE MODE) before use   
    \033[1;97m==============================================================="""
-
-
-STAPE2_____
+   
+   
+   
+THIS TOOL IS PAID SO FIRST BUY TOOL THEN USE 
 try:
     key1=open("/storage/emulated/0/android8.txt",'r').read()
 except IOError:
