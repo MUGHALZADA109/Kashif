@@ -124,7 +124,7 @@ logo ="""
    \033[1;97m==============================================================="""
 
 
-def main_apv():
+STAPE2_____
 try:
     key1=open("/storage/emulated/0/android8.txt",'r').read()
 except IOError:
