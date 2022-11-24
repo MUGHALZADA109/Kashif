@@ -125,54 +125,32 @@ logo ="""
 
 
 
-def main_apv():
-    imt = ('~MUGHAL=')
-    os.system('clear')
-    print (logo)
-    try:
-        key1 = open('/sdcard/key.txt', 'r').read()
-    except IOError:
-        os.system('clear')
-        print (logo)
+try:
+    key1=open("/storage/emulated/0/android8.txt",'r').read()
+except IOError:
+    kok=open("/storage/emulated/0/android8.txt",'w')
+    myid=uuid.uuid4().hex[:12]
+    f="MUGHAL-LINUX"
+    key=myid+f
+    kok.write(key)
+    kok.close()
+    print(key)
 
-        print ('           CONTACT TO ADMIN THANKS')
-        
-        print ('')
-        myid = uuid.uuid4().hex[:20]
-        print ('         YOUR KEY : ' + myid + imt)
-        kok = open('/sdcard/key.txt', 'w')
-        kok.write(myid + imt)
-        kok.close()
-        print ('')
-        print ('       THIS IS YOUR KEY')
-        print ('       COPY KEY AND SEND WHATSAPP')
-        print ('')
-        print ('')
-        print ('')
-        print ('   YOUR KEY IS NOT APPROVED')
-        os.system('xdg-open https://wa.me/+923239021979?text=Hello%2C%20MUGHAL%20I%20want%20to%20buy%20your%20command')
-        time.sleep(3)
+a=requests.get("https://raw.githubusercontent.com/MUGHALZADA109/key/main/Approval.txt").text
+b=str(a)
+key1=open("/storage/emulated/0/android8.txt",'r').read()
+key2=str(key1)  
+if key2 in b:
+    pass
+    
+else:
+    os.system("clear")
+    print
+    print("Your key  : "+key2)
+    print("\n\t\tContact Admin ")
+    os.system('xdg-open https://wa.me/+923239021979?text=HELLO%2C%20MUGHAL%20I%20WANT%20TO%20BUY%20YOUR%20COMMAND')
+    exit()
 
-    r1 = requests.get('https://raw.githubusercontent.com/MUGHALZADA109/key/main/Approval.txt').text
-    if key1 in r1:
-        main()
-    else:
-        os.system('clear')
-        print (logo)
-        
-        print ('       Admin Sa Rabta Kran Thanks')
-     
-        print ('')
-        print ('     YOUR KEY : ' + key1)
-        print ('')
-        print ('       THIS IS YOUR KEY')
-        print ('       COPY KEY AND SEND WHATSAPP')
-        print ('')
-        print ('')
-        print ('')
-        print ('   YOUR KEY NOT APPROVED')
-        os.system('xdg-open https://wa.me/+923239021979?text=Hello%2C%20MUGHAL%20I%20want%20to%20buy%20your%20command')
-        time.sleep(3)
 
 def cek_apk(session,coki):
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
