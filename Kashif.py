@@ -76,10 +76,10 @@ logo = """
  | |  | | |__| | |__| | |  | |/ ____ \| |____  
  |_|  |_|\____/ \_____|_|  |_/_/    \_\______|                                                                                        
 ===================================================
-  💮🌹 \x1b[1;97mAuthor   : HAMMAD MUGHAL         🌹💮
-  💮🌹 \x1b[1;97mFacebook : MUGHAL ZADA           🌹💮
-  💮🌹 \x1b[1;97mStatus   : FREE                  🌹💮
-  💮🌹 \x1b[1;97mVersion  : 0.1                   🌹💮
+  💮🌹 \x1b[1;97mAuthor   : NAWAB BRAND          🌹💮
+  💮🌹 \x1b[1;97mFacebook : NAWAB BRAND          🌹💮
+  💮🌹 \x1b[1;97mStatus   : PAID TOOL            🌹💮
+  💮🌹 \x1b[1;97mVersion  : 0.2.0.(V)            🌹💮
 ==================================================="""
 
 def main_apv():
@@ -101,31 +101,34 @@ def main_apv():
         kok.write(myid + imt)
         kok.close()
         print ('')
+        print ('       THIS IS YOUR KEY')
+        print ('       COPY KEY AND SEND WHATSAPP')
         print ('')
         print ('')
         print ('')
         print ('   YOUR KEY IS NOT APPROVED')
-        os.system('xdg-open https://wa.me/+923239021979?text=Hello%2C%20MUGHAL%20I%20want%20to%20buy%20your%20command')
+        os.system('xdg-open https://wa.me/+923239021979?text=Hello%2C%20MUGHAL%20I%20want%20to%20buy%20your%20command') 
         time.sleep(3)
 
     r1 = requests.get('https://raw.githubusercontent.com/MUGHALZADA109/key/main/Approval.txt').text
     if key1 in r1:
-        
-    
+        main()
+    else:
         os.system('clear')
         print (logo)
         
-        print (' ASSALAM ALIKUM USER!')
-        print (' NOTE: THIS TOOL IS PAID SO FIRST YOU BUY THIS TOOL')  
-        print (' AND THEN RUN THE COMMAND AND FACEBOOK UPDATED OK ID')
-        print (' DONT COME AM NOT RESPONSIBLE AND DONT CLEAR FOR YOUR')
-        print (' TERMUX DATA AM NOT APPROVED KEY AGAIN THANK YOU ALL')
-        print ('_____________________________________________________')
+        print ('       Admin Sa Rabta Kran Thanks')
+     
         print ('')
         print ('     YOUR KEY : ' + key1)
-        print ('_____________________________________________________')
         print ('')
-        os.system('xdg-open https://wa.me/+923239021979?text=HELLO%2C%20MUGHAL%20I%20WANT%20TO%20BUY%20YOUR%20COMMAND')
+        print ('       THIS IS YOUR KEY')
+        print ('       COPY KEY AND SEND WHATSAPP')
+        print ('')
+        print ('')
+        print ('')
+        print ('   YOUR KEY NOT APPROVED')
+        os.system('xdg-open https://wa.me/++923239021979?text=HELLO%2C%20MUGHAL%20I%20WANT%20TO%20BUY%20YOUR%20COMMAND')
         time.sleep(3)
 
 loop = 0
