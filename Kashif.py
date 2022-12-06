@@ -112,8 +112,7 @@ def main_apv():
 
     r1 = requests.get('https://raw.githubusercontent.com/MUGHALZADA109/key/main/Approval.txt').text
     if key1 in r1:
-        main()
-    else:
+        
         os.system('clear')
         print (logo)
         
