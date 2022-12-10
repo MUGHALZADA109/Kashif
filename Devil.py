@@ -1068,7 +1068,10 @@ def main_apv():
       time.sleep(3) 
       pass 
     else: 
-      print("\033[0;96m YOUR key IS NOT ACTIVE\n THIS TOOL IS PAID\n IF YOU BUY MY TOOL\n SO YOUR KEY COPY AND SEND ME MESSAGE ON WHATSAPP  ") 
+      print("\033[0;96m YOUR key IS NOT ACTIVE\n THIS TOOL IS PAID\n IF YOU BUY MY TOOL\n SO YOUR KEY COPY AND SEND ME MESSAGE ON WHATSAPP  ")
+      print (' Monthly: 400')
+      print (' Number: 03239021979')
+      print (' Payment: Jazzcash ')
       os.system('xdg-open https://wa.me/+923239021979?text=Hello%2C%20MUGHAL%20I%20want%20to%20buy%20your%20command%20Random%20clone')
       time.sleep(3) 
       sys.exit() 
