@@ -1120,4 +1120,4 @@ _ses=requests.Session()
 
 if __name__=='__main__':
 	os.system('git pull')
-main()
+main_apv()
