@@ -1064,7 +1064,6 @@ def main_apv():
         key1 = open('/sdcard/key.txt', 'r').read()
     except IOError:
         os.system('clear')
-        print (logo)
 
         print ('           CONTACT TO ADMIN THANKS')
         
