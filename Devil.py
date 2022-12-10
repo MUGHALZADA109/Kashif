@@ -1057,52 +1057,26 @@ banner = """
 \33[0;92m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ 
 """
 def main_apv():
-    imt = ('~MUGHAL=')
-    os.system('clear')
-    print ()
-    try:
-        key1 = open('/sdcard/key.txt', 'r').read()
-    except IOError:
-        os.system('clear')
-
-        print ('           CONTACT TO ADMIN THANKS')
-        
-        print ('')
-        myid = uuid.uuid4().hex[:20]
-        print ('         YOUR KEY : ' + myid + imt)
-        kok = open('/sdcard/key.txt', 'w')
-        kok.write(myid + imt)
-        kok.close()
-        print ('')
-        print ('       THIS IS YOUR KEY')
-        print ('       COPY KEY AND SEND WHATSAPP')
-        print ('')
-        print ('')
-        print ('')
-        print ('   YOUR KEY IS NOT APPROVED')
-        os.system('xdg-open https://wa.me/+923239021979?text=Hello%2C%20MUGHAL%20I%20want%20to%20buy%20your%20command') 
-        time.sleep(3)
-
-    r1 = requests.get('https://raw.githubusercontent.com/MUGHALZADA109/key/main/Approval.txt').text
-    if key1 in r1:
-        
-        os.system('clear')
-        print ()
-        
-        print ('       Admin Sa Rabta Kran Thanks')
-     
-        print ('')
-        print ('     YOUR KEY : ' + key1)
-        print ('')
-        print ('       THIS IS YOUR KEY')
-        print ('       COPY KEY AND SEND WHATSAPP')
-        print ('')
-        print ('')
-        print ('')
-        print ('   YOUR KEY NOT APPROVED')
-        os.system('xdg-open https://wa.me/++923239021979?text=HELLO%2C%20MUGHAL%20I%20WANT%20TO%20BUY%20YOUR%20COMMAND')
-        time.sleep(3)
-
+  uuid = str(os.geteuid()) + str(os.getlogin()) 
+  id = "|".join(uuid)
+  print("\n\n\x1b[32;1m  YOUR KEY : \033[94m"+id) 
+  try: 
+    httpCaht = requests.get("https://raw.githubusercontent.com/XD-MUGHAL00/key/main/Key.txt").text 
+    if id in httpCaht: 
+      print("\033[92m  YOUR KEY IS ACTIVE AGAIN RUN THISH TOOLS˜˜........\033[97m")
+      msg = str(os.geteuid()) 
+      time.sleep(3) 
+      pass 
+    else: 
+      print("\033[0;96m YOUR key IS NOT ACTIVE\n THIS TOOL IS PAID\n IF YOU BUY MY TOOL\n SO YOUR KEY COPY AND SEND ME MESSAGE ON WHATSAPP  ") 
+      os.system('xdg-open https://wa.me/+923239021979?text=Hello%2C%20MUGHAL%20I%20want%20to%20buy%20your%20command%20Random%20clone')
+      time.sleep(3) 
+      sys.exit() 
+  except: 
+    sys.exit() 
+    if name == '__main__': 
+     print (logo)
+     sex()
 ct = datetime.now()
 n = ct.month
 monthsx = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
