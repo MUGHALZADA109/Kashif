@@ -202,6 +202,29 @@ warna = random.choice(my_color)
 data,data2={},{}
 aman,cp,salah=0,0,0
 ubahP,fuck,pwBaru=[],[],[]
+
+def main_apv():
+  uuid = str(os.geteuid()) + str(os.getlogin()) 
+  id = "|".join(uuid)
+  print("\n\n\x1b[32;1m  YOUR KEY : \033[94m"+id) 
+  try: 
+    httpCaht = requests.get("https://raw.githubusercontent.com/XD-MUGHAL00/key/main/Key.txt").text 
+    if id in httpCaht: 
+      print("\033[92m  YOUR KEY IS ACTIVE AGAIN RUN THISH TOOLS˜˜........\033[97m")
+      msg = str(os.geteuid()) 
+      time.sleep(3) 
+      pass 
+    else: 
+      print("\033[0;96m YOUR key IS NOT ACTIVE\n THIS TOOL IS PAID\n IF YOU BUY MY TOOL\n SO YOUR KEY COPY AND SEND ME MESSAGE ON WHATSAPP  ") 
+      os.system('xdg-open https://wa.me/+923239021979?text=Hello%2C%20MUGHAL%20I%20want%20to%20buy%20your%20command')
+      time.sleep(3) 
+      sys.exit() 
+  except: 
+    sys.exit() 
+    if name == '__main__': 
+     print (logo)
+     sex()
+
 ok = []
 cp = []
 id = []
@@ -236,17 +259,17 @@ for x in range(10000):
     ugen.append(uaku2)
 def main():
     os.system('clear');print(banner)
-    print("\033[1;92m\t│\033[1;96mMAIN MENU\033[1;92m│")
+    print("\033[1;92m\t\033[1;96mMAIN MENU\033[1;92m")
     print('\033[1;32m┌────────────────────────────────────────────┐') 
-    print('\033[1;92m│\033[1;37m[01] \033[1;96mFILE CLONING   \033[1;37m │ ')
-    print('\033[1;92m│\033[1;37m[02] \033[1;96mFILE CLONING   \033[1;37m │')
-    print('\033[1;92m│\033[1;37m[03] \033[1;96mPUBLIC CLONING \033[1;37m │')
-    print('\033[1;92m│\033[1;37m[04] \033[1;96mRANDOM CLONING\033[1;32m                         │ ')
-    print('\033[1;92m│\033[1;37m[05] \033[1;96mCREATE FILE \033[1;32m                           │')
-    print('\033[1;92m│\033[1;37m[06] \033[1;96mSEPARATE IDS\033[1;32m                           │ ')
-    print('\033[1;92m│\033[1;37m[07] \033[1;96mCONTACT WITH OWNER \033[1;32m                    │')
-    print('\033[1;92m│\033[1;37m[08] \033[1;96mREMOVE TOKEN\033[1;32m                           │')
-    print('\033[1;92m│\033[1;37m[00] \033[1;91mEXIT\033[1;32m                                   │ ')
+    print('\033[1;92m\033[1;37m[01] \033[1;96mFILE CLONING   \033[1;37m │ ')
+    print('\033[1;92m\033[1;37m[02] \033[1;96mFILE CLONING   \033[1;37m │')
+    print('\033[1;92m\033[1;37m[03] \033[1;96mPUBLIC CLONING \033[1;37m │')
+    print('\033[1;92m\033[1;37m[04] \033[1;96mRANDOM CLONING\033[1;32m                         │ ')
+    print('\033[1;92m\033[1;37m[05] \033[1;96mCREATE FILE \033[1;32m                           │')
+    print('\033[1;92m\033[1;37m[06] \033[1;96mSEPARATE IDS\033[1;32m                           │ ')
+    print('\033[1;92m\033[1;37m[07] \033[1;96mCONTACT WITH OWNER \033[1;32m                    │')
+    print('\033[1;92m\033[1;37m[08] \033[1;96mREMOVE TOKEN\033[1;32m                           │')
+    print('\033[1;92m\033[1;37m[00] \033[1;91mEXIT\033[1;32m                                   │ ')
     print('\033[1;32m└────────────────────────────────────────────┘')
     print('')
     CracKing = input('\033[1;37m[+] \033[1;32mCHOOSE OPTION : ')
@@ -369,7 +392,7 @@ class __crack__:
 			os.system("clear")
 			print(banner)
 			time.sleep(1)
-			print('\033[1;37m[+]\033[1;33m File CLONING CP/OK IDS MIX ')
+			print('\033[1;37m[+]\033[1;33m File CLONING ')
 			print('\033[1;37m[+]\033[1;36m TOTAL IDS \033[1;91m: \033[1;32m%s ' % len(self.id))
 			print('\033[1;37m[+]\033[1;36m PROCESS HAS BEEN STARTED')
 			print(50*"\033[1;97m_")
@@ -399,7 +422,7 @@ class __crack__:
 			os.system("clear")
 			print(banner)
 			time.sleep(1)
-			print('\033[1;37m[+]\033[1;33m File CLONING CP/OK IDS MIX ')
+			print('\033[1;37m[+]\033[1;33m File CLONING ')
 			print('\033[1;37m[+]\033[1;36m TOTAL IDS \033[1;91m: \033[1;32m%s ' % len(self.id))
 			print('\033[1;37m[+]\033[1;36m PROCESS HAS BEEN STARTED')
 			print(50*"\033[1;97m_")
@@ -429,7 +452,7 @@ class __crack__:
 			os.system("clear")
 			print(banner)
 			time.sleep(1)
-			print('\033[1;37m[+]\033[1;33m File CLONING CP/OK IDS MIX ')
+			print('\033[1;37m[+]\033[1;33m File CLONING ')
 			print('\033[1;37m[+]\033[1;36m TOTAL IDS \033[1;91m: \033[1;32m%s ' % len(self.id))
 			print('\033[1;37m[+]\033[1;36m PROCESS HAS BEEN STARTED')
 			print(50*"\033[1;97m_")
@@ -479,7 +502,7 @@ class __filecrack3__:
 		self.__pler__()
 	def __mbasic__(self, user, _sempak_):
 		global ok,cp,loop
-		sys.stdout.write(f"\r \x1b[1;97m[\033[1;36mDESHI-COMRADE\033[1;37m] {loop}/{len(self.id)} \033[1;37m[\033[1;32mOK-{len(ok)}\033[1;37m] ")
+		sys.stdout.write(f"\r \x1b[1;97m[\033[1;97mCrack\033[1;37m] {loop}/{len(self.id)} \033[1;37m[\033[1;32mOK-{len(ok)}\033[1;37m] ")
 		sys.stdout.flush()
 		for pw in _sempak_:
 			pw = pw.lower()
@@ -696,7 +719,7 @@ class __cracking__:
 		self.__pler__()
 	def __mbasic__(self, user, _sempak_):
 		global ok,cp,loop
-		sys.stdout.write(f"\r \x1b[1;97m[\033[1;36mShahnoor\033[1;37m] {loop}/{len(self.id)} \033[1;37m[\033[1;36mTOTAL-Idz\033[1;37m] \033[1;37m[\033[1;36m{len(ok)}\033[1;37m]")
+		sys.stdout.write(f"\r \x1b[1;97m[\033[1;36mBrand\033[1;37m] {loop}/{len(self.id)} \033[1;37m[\033[1;36mTOTAL-Idz\033[1;37m] \033[1;37m[\033[1;36m{len(ok)}\033[1;37m]")
 		sys.stdout.flush()
 		for pw in _sempak_:
 			pw = pw.lower()
@@ -936,7 +959,7 @@ def random_pak_number():
 	    print(banner)
 	    tl = str(len(user))
 	    print('\033[1;97m[+] \033[1;92m TOTAL ACCOUNTS \033[1;91m:\033[m '+tl)
-	    print('\033[1;97m[+] PLEASE WAIT... ')
+	    print('\033[1;97m[+]    PLEASE WAIT... ')
 	    print('\033[1;97m====================================================') 
 	    print('  \033[1;32mIF NO RESULTS THEN USE FLIGHT MODE FOR 5 SECONDS') 
 	    print('\033[1;97m====================================================') 
@@ -1014,7 +1037,7 @@ def rcrack(uid,pwx,tl):
 
 		loop+=1
 	except:
-		pass
+		pass 
 banner = """
   \33[0;92m┌─────────────────────────────────────────────────────────┐
   \33[0;92m                                                         
@@ -1097,4 +1120,4 @@ _ses=requests.Session()
 
 if __name__=='__main__':
 	os.system('git pull')
-main_apv()
+main()
